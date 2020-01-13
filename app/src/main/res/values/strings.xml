@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZPO_Lab9</string>
+    <string name="textViewTime">Time</string>
+    <string name="buttonStart">START</string>
+    <string name="buttonStop">STOP</string>
+    <string name="buttonReset">RESET</string>
+    <string name="textViewVolume">Volume</string>
+    <string name="please_enter_h_value">Please enter h value:</string>
+</resources>

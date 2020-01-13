@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="@string/textViewTime"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/textViewVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="@string/textViewVolume"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/textViewHValue"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:gravity="center"
+        android:text="@string/please_enter_h_value"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/enterHValue"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:background="#030303"
+            android:onClick="onClickStart"
+            android:text="@string/buttonStart"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:background="#030303"
+            android:onClick="onClickStop"
+            android:text="@string/buttonStop"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:background="#030303"
+            android:onClick="onClickReset"
+            android:text="@string/buttonReset"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
+
